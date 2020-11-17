@@ -1,1 +1,5 @@
-ola 
+<?php
+
+echo 'ola';
+
+?>

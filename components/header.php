@@ -5,11 +5,12 @@ echo '
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie</title>
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie</title>
+    </head>
 
 <body>
     <header>
@@ -22,15 +23,19 @@ echo '
                    
                   <a class="navbar-brand" href="#"><img src="https://drive.google.com/thumbnail?id=1W-lr3fEXaWfOyUdk132r-kkiQMeBsKWO" alt="logo" width="50px"></a>
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
                     <li class="nav-item active">
-                      <a class="nav-link" href="views/categories.php">Home<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="../views/categories.php">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="views/cards.php">All Recipes</a>
+
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../views/cards.php">All Recipes</a>
                     </li>
-                    <li class="nav-item">
+
+                    <li class="nav-item active">
                       <a class="nav-link" href="../views/about.php">About</a>
                     </li>
+
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
